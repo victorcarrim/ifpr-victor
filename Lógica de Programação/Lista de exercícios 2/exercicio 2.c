@@ -11,7 +11,7 @@ int main (){
 	
 	area = 3.14 * (raio*raio);
 	
-	printf("\nResultado\n");
+	printf("Resultado\n");
 	printf("Area = %.4f" ,area);
 	
 	return 0;
