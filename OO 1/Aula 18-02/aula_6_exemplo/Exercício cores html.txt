@@ -1,7 +1,0 @@
-
-Crie um programa java que gere uma tabela de cores HTML conforme o exemplo, sendo que:
-
--Dos 2 dígitos que formam cada cor R+G+B o segundo deve ser sempre zero e o primeiro deve variar de 0 a F.
-Ex: #000000, #000010, #000020, ..., #001000, #001010,... até #F0F0F0
-
-

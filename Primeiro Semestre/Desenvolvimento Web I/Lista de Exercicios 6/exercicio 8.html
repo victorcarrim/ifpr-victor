@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>    
+        <meta charset="UTF-8">
+
+        <title>Exercício 8</title>
+
+        <style>
+            table{
+                border: 1px solid black;
+            }
+            th{
+                border: 1px solid black;
+            }
+            td{
+                border: 1px solid black;
+            }
+            .tipos{
+                background: lightgreen;
+            }
+            .titulo{
+                background: rgb(243, 213, 124);
+            }
+            .serviço{
+                background: lightblue;
+            }
+            .total{
+                background: yellow;
+            }
+        </style>
+    </head>
+
+    <body>
+        <table cellspacing=0>
+            <tr>
+                <th colspan="3" class="titulo">Relatório de despesas</th>
+            </tr>
+            <tr class="tipos">
+                <th>Tipo de Despesa</th>
+                <th>Descrição</th>
+                <th>Valor</th>
+            </tr>
+            <tr>
+                <td rowspan="5" class="serviço">Doméstica</td>
+                <td>Supermercado</td>
+                <td>R$ 780,00</td>
+            </tr>
+            <tr>
+                <td>Aluguel</td>
+                <td>R$ 850,00</td>
+            </tr>
+            <tr>
+                <td>Internet</td>
+                <td>R$ 120,00</td>
+            </tr>
+            <tr>
+                <td>Celular</td>
+                <td>R$ 69,00</td>
+            </tr>
+            <tr>
+                <td>Condomínio</td>
+                <td>R$ 250,00</td>
+            </tr>
+            <tr>
+                <td rowspan="3" class="serviço">Externa</td>
+                <td>Combustível</td>
+                <td>R$ 380,00</td>
+            </tr>
+            <tr>
+                <td>Almoço</td>
+                <td>R$ 340,00</td>
+            </tr>
+            <tr>
+                <td>Academia</td>
+                <td>R$ 110,00</td>
+            </tr>
+            <tr>
+                <td colspan="2">Total</td>
+                <td class="total">R$ 2.899,00</td>
+            </tr>
+        </table>
+    </body>
+</html>

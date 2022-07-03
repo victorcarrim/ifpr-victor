@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="pr-br">
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Exercício 1</title>
+
+        <style>
+            .main{
+                width: 90%;
+                margin: auto;
+
+            }
+            .container{
+                display: grid;
+                grid-template-columns: 100%;
+                grid-template-areas: 
+                "header"
+                "navbar" 
+                "content"
+                "footer";
+            }
+            .header{
+                grid-area: header;
+                background: #d1b889;
+                text-align: center;
+            }
+            .navbar{
+                grid-area: navbar;
+                background: lightblue;
+                text-align: center;
+            }
+            .content{
+                grid-area: content;
+                background: white;
+                padding: 10px;
+            }
+            .footer{
+                grid-area: footer;
+                background: gray;
+                text-align: center;
+            }
+            .text{
+                text-align: justify;
+            }
+            body{
+                background: black;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- no grid layout começa por um div container -->
+        <div class="main">
+            <div class="container">
+                <div class="header"><h1>Desenvolvimento de Sistemas</h1></div>
+                <div class="navbar">
+                    <p class="navbar"><a href="https://www.google.com">google</a> | ifpr | uol</p>
+                </div>
+                <div class="content">
+                    <h2>Introdução</h2>
+                    <hr>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nulla elit, tempor suscipit aliquet id, tincidunt interdum nulla. Suspendisse condimentum lacus quis magna maximus, aliquam gravida sem maximus. Donec pulvinar feugiat convallis. Phasellus urna leo, posuere nec vestibulum a, sodales at massa. Phasellus posuere dictum dapibus. Donec aliquam volutpat semper. Praesent vel erat ullamcorper, posuere turpis sit amet, ultrices quam. Suspendisse velit risus, sollicitudin sed mi ac, posuere egestas augue. Etiam efficitur arcu mauris, nec suscipit mi pulvinar ac. Vestibulum dapibus ante eu imperdiet viverra. Ut viverra sollicitudin sodales. Morbi vehicula, metus eu cursus interdum, tellus elit cursus libero, ac convallis odio lorem a nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam bibendum sapien sed auctor varius. Nunc interdum odio eget est posuere iaculis.
+
+                        Duis mi elit, ornare non ullamcorper vel, dapibus fringilla lectus. Aenean sed tortor vitae nisl fermentum porttitor a nec diam. Maecenas eu tempor ante. Sed felis mi, placerat quis dui ut, convallis hendrerit dui. Cras nunc turpis, fringilla nec mattis id, elementum in turpis. Vestibulum dignissim ultrices turpis a porta. Suspendisse eget orci ac libero lobortis egestas vel eget felis. Pellentesque ullamcorper risus ultrices quam rutrum, gravida pulvinar justo varius. Maecenas lacus justo, tincidunt at augue quis, convallis fringilla est.</p>
+                    <h2>Desenvolvimento</h2>
+                    <hr>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nulla elit, tempor suscipit aliquet id, tincidunt interdum nulla. Suspendisse condimentum lacus quis magna maximus, aliquam gravida sem maximus. Donec pulvinar feugiat convallis. Phasellus urna leo, posuere nec vestibulum a, sodales at massa. Phasellus posuere dictum dapibus. Donec aliquam volutpat semper. Praesent vel erat ullamcorper, posuere turpis sit amet, ultrices quam. Suspendisse velit risus, sollicitudin sed mi ac, posuere egestas augue. Etiam efficitur arcu mauris, nec suscipit mi pulvinar ac. Vestibulum dapibus ante eu imperdiet viverra. Ut viverra sollicitudin sodales. Morbi vehicula, metus eu cursus interdum, tellus elit cursus libero, ac convallis odio lorem a nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam bibendum sapien sed auctor varius. Nunc interdum odio eget est posuere iaculis.
+
+                        Duis mi elit, ornare non ullamcorper vel, dapibus fringilla lectus. Aenean sed tortor vitae nisl fermentum porttitor a nec diam. Maecenas eu tempor ante. Sed felis mi, placerat quis dui ut, convallis hendrerit dui. Cras nunc turpis, fringilla nec mattis id, elementum in turpis. Vestibulum dignissim ultrices turpis a porta. Suspendisse eget orci ac libero lobortis egestas vel eget felis. Pellentesque ullamcorper risus ultrices quam rutrum, gravida pulvinar justo varius. Maecenas lacus justo, tincidunt at augue quis, convallis fringilla est.</p>
+                </div>
+                <div class="footer"><p>Site Desenvolvido por tectronica S.A.</p></div>
+            </div>
+        </div>
+    </body>
+</html>
