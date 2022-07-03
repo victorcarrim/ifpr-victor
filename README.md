@@ -9,8 +9,8 @@
 ### Matemática Aplicada
 
 ## 2 SEMESTRE
-###[Orientação a Objetos 1](https://github.com/victorcarrim/ifpr-victor/tree/main/Segundo%20Semestre/Orienta%C3%A7%C3%A3o%20a%20Obejtos%20I)
-###[Banco de Dados 1](https://github.com/victorcarrim/ifpr-victor/tree/main/Segundo%20Semestre/Banco%20de%20Dados%20I)
-###[Estrutura de Dados](https://github.com/victorcarrim/ifpr-victor/tree/main/Segundo%20Semestre/Estuturas%20de%20Dados)
-###[Sistemas Operacionais]
-###[Desenvolvimento Web 2]
+### [Orientação a Objetos 1](https://github.com/victorcarrim/ifpr-victor/tree/main/Segundo%20Semestre/Orienta%C3%A7%C3%A3o%20a%20Obejtos%20I)
+### [Banco de Dados 1](https://github.com/victorcarrim/ifpr-victor/tree/main/Segundo%20Semestre/Banco%20de%20Dados%20I)
+### [Estrutura de Dados](https://github.com/victorcarrim/ifpr-victor/tree/main/Segundo%20Semestre/Estuturas%20de%20Dados)
+### Sistemas Operacionais
+### Desenvolvimento Web 2
