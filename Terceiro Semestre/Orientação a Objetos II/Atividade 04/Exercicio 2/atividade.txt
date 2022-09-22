@@ -1,0 +1,9 @@
+Atividade 1 HashMap
+
+Crie um programa java que utilize hashmap para manipular as informações sobre aeroportos.
+Cada elemento do hashmap deve conter a sigla do aeroporto e um objeto com os dados do aeroporto (nome, cidade, altitude).
+O programa deve permitir que o usuário:
+-Cadastre aeroportos
+-Liste os aeroportos cadastrados
+-Remova um aeroporto
+-Consulte os detalhes de um determinado aeroporto a partir de sua sigla

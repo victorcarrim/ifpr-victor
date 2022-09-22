@@ -1,0 +1,12 @@
+----------
+Atividade 2 HashMap
+
+Crie um programa que solicite o nome e a data de aniversário de um usuário (dd/mm), e 
+guarde em um HashMap.
+Como podem haver vários aniversariantes na mesma data, cada elemento do hashmap deve
+ter como chave a data e como valor um arraylist de String, onde serão armazenados os nomes 
+dos aniversariantes.
+Deve ser possível:
+-Adicionar aniversariante
+-Listar as datas que contém aniversariantes
+-Consultar os aniversariantes de uma determinada data
